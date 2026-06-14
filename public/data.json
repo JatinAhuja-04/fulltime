@@ -1,0 +1,1329 @@
+{
+  "date": "2026-06-13",
+  "fetched_at": "2026-06-14T12:25:37.384Z",
+  "match_count": 2,
+  "matches": [
+    {
+      "fixture": {
+        "id": 1539000,
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 6
+        },
+        "date": "2026-06-13T00:30:00+05:30"
+      },
+      "league": {
+        "id": 1,
+        "name": "FIFA World Cup",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "round": "Group Stage - 1"
+      },
+      "teams": {
+        "home": {
+          "id": 5529,
+          "name": "Canada",
+          "logo": "https://media.api-sports.io/football/teams/5529.png"
+        },
+        "away": {
+          "id": 1113,
+          "name": "Bosnia & Herzegovina",
+          "logo": "https://media.api-sports.io/football/teams/1113.png"
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": [
+        {
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "minute": 21,
+          "team_id": 1113,
+          "player": "J. Lukic",
+          "assist": "S. Kolasinac"
+        },
+        {
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "minute": 78,
+          "team_id": 5529,
+          "player": "C. Larin",
+          "assist": "P. David"
+        }
+      ],
+      "stats": [
+        {
+          "team_id": 5529,
+          "possession": "61%",
+          "shots_on": 4,
+          "shots_total": 13,
+          "corners": 9,
+          "fouls": 10,
+          "yellow_cards": 2,
+          "saves": 2,
+          "passes_total": 421,
+          "passes_acc": 310,
+          "passes_pct": "74%",
+          "xg": null
+        },
+        {
+          "team_id": 1113,
+          "possession": "39%",
+          "shots_on": 3,
+          "shots_total": 8,
+          "corners": 4,
+          "fouls": 20,
+          "yellow_cards": 3,
+          "saves": 1,
+          "passes_total": 271,
+          "passes_acc": 172,
+          "passes_pct": "63%",
+          "xg": null
+        }
+      ],
+      "lineups": [
+        {
+          "team_id": 5529,
+          "formation": "4-4-2",
+          "startXI": [
+            {
+              "id": 51274,
+              "name": "M. Crepeau",
+              "number": 16,
+              "pos": "G"
+            },
+            {
+              "id": 78547,
+              "name": "A. Johnston",
+              "number": 2,
+              "pos": "D"
+            },
+            {
+              "id": 327738,
+              "name": "L. De Fougerolles",
+              "number": 4,
+              "pos": "D"
+            },
+            {
+              "id": 51295,
+              "name": "D. Cornelius",
+              "number": 13,
+              "pos": "D"
+            },
+            {
+              "id": 50816,
+              "name": "R. Laryea",
+              "number": 22,
+              "pos": "D"
+            },
+            {
+              "id": 51016,
+              "name": "T. Buchanan",
+              "number": 17,
+              "pos": "M"
+            },
+            {
+              "id": 328046,
+              "name": "I. Kone",
+              "number": 8,
+              "pos": "M"
+            },
+            {
+              "id": 35570,
+              "name": "S. Eustaquio",
+              "number": 7,
+              "pos": "M"
+            },
+            {
+              "id": 44798,
+              "name": "L. Millar",
+              "number": 11,
+              "pos": "M"
+            },
+            {
+              "id": 8489,
+              "name": "J. David",
+              "number": 10,
+              "pos": "F"
+            },
+            {
+              "id": 351587,
+              "name": "T. Oluwaseyi",
+              "number": 12,
+              "pos": "F"
+            }
+          ],
+          "substitutes": [
+            {
+              "id": 51148,
+              "name": "D. St.Clair",
+              "number": 1,
+              "pos": "G"
+            },
+            {
+              "id": 284554,
+              "name": "O. Goodman",
+              "number": 18,
+              "pos": "G"
+            },
+            {
+              "id": 2001,
+              "name": "C. Larin",
+              "number": 9,
+              "pos": "F"
+            },
+            {
+              "id": 78494,
+              "name": "J. Waterman",
+              "number": 5,
+              "pos": "D"
+            },
+            {
+              "id": 509,
+              "name": "A. Davies",
+              "number": 19,
+              "pos": "D"
+            },
+            {
+              "id": 50826,
+              "name": "J. Shaffelburg",
+              "number": 14,
+              "pos": "F"
+            },
+            {
+              "id": 193279,
+              "name": "J. Nelson",
+              "number": 26,
+              "pos": "F"
+            },
+            {
+              "id": 407017,
+              "name": "M. Bombito",
+              "number": 15,
+              "pos": "D"
+            },
+            {
+              "id": 416901,
+              "name": "N. Sigur",
+              "number": 23,
+              "pos": "M"
+            },
+            {
+              "id": 50817,
+              "name": "J. Osorio",
+              "number": 21,
+              "pos": "M"
+            },
+            {
+              "id": 18938,
+              "name": "A. Jones",
+              "number": 3,
+              "pos": "D"
+            },
+            {
+              "id": 50788,
+              "name": "M. Choiniere",
+              "number": 6,
+              "pos": "M"
+            },
+            {
+              "id": 294824,
+              "name": "N. Saliba",
+              "number": 25,
+              "pos": "M"
+            },
+            {
+              "id": 313353,
+              "name": "P. David",
+              "number": 24,
+              "pos": "F"
+            },
+            {
+              "id": 362145,
+              "name": "A. Ahmed",
+              "number": 20,
+              "pos": "M"
+            }
+          ]
+        },
+        {
+          "team_id": 1113,
+          "formation": "4-4-2",
+          "startXI": [
+            {
+              "id": 9026,
+              "name": "N. Vasilj",
+              "number": 1,
+              "pos": "G"
+            },
+            {
+              "id": 7318,
+              "name": "A. Dedic",
+              "number": 7,
+              "pos": "D"
+            },
+            {
+              "id": 1741,
+              "name": "N. Katic",
+              "number": 18,
+              "pos": "D"
+            },
+            {
+              "id": 271350,
+              "name": "T. Muharemovic",
+              "number": 4,
+              "pos": "D"
+            },
+            {
+              "id": 1442,
+              "name": "S. Kolasinac",
+              "number": 5,
+              "pos": "D"
+            },
+            {
+              "id": 329409,
+              "name": "E. Bajraktarevic",
+              "number": 20,
+              "pos": "M"
+            },
+            {
+              "id": 264094,
+              "name": "B. Tahirovic",
+              "number": 6,
+              "pos": "M"
+            },
+            {
+              "id": 162222,
+              "name": "I. Basic",
+              "number": 13,
+              "pos": "M"
+            },
+            {
+              "id": 322101,
+              "name": "A. Memic",
+              "number": 15,
+              "pos": "M"
+            },
+            {
+              "id": 46930,
+              "name": "E. Demirovic",
+              "number": 10,
+              "pos": "F"
+            },
+            {
+              "id": 77037,
+              "name": "J. Lukic",
+              "number": 25,
+              "pos": "F"
+            }
+          ],
+          "substitutes": [
+            {
+              "id": 108370,
+              "name": "M. Zlomislic",
+              "number": 22,
+              "pos": "G"
+            },
+            {
+              "id": 446130,
+              "name": "M. Jurkas",
+              "number": 12,
+              "pos": "G"
+            },
+            {
+              "id": 790,
+              "name": "E. Dzeko",
+              "number": 11,
+              "pos": "F"
+            },
+            {
+              "id": 1324,
+              "name": "I. Sunjic",
+              "number": 14,
+              "pos": "M"
+            },
+            {
+              "id": 340173,
+              "name": "E. Mahmic",
+              "number": 26,
+              "pos": "M"
+            },
+            {
+              "id": 395559,
+              "name": "K. Alajbegovic",
+              "number": 19,
+              "pos": "F"
+            },
+            {
+              "id": 28382,
+              "name": "H. Tabakovic",
+              "number": 23,
+              "pos": "F"
+            },
+            {
+              "id": 50006,
+              "name": "A. Hadziahmetovic",
+              "number": 16,
+              "pos": "M"
+            },
+            {
+              "id": 53517,
+              "name": "D. Hadzikadunic",
+              "number": 3,
+              "pos": "D"
+            },
+            {
+              "id": 25129,
+              "name": "D. Burnic",
+              "number": 17,
+              "pos": "M"
+            },
+            {
+              "id": 14301,
+              "name": "S. Radeljic",
+              "number": 21,
+              "pos": "D"
+            },
+            {
+              "id": 76867,
+              "name": "N. Mujakic",
+              "number": 2,
+              "pos": "D"
+            },
+            {
+              "id": 70514,
+              "name": "A. Gigovic",
+              "number": 8,
+              "pos": "M"
+            },
+            {
+              "id": 314377,
+              "name": "S. Bazdar",
+              "number": 9,
+              "pos": "F"
+            },
+            {
+              "id": 409670,
+              "name": "A. Malic",
+              "number": 24,
+              "pos": "D"
+            }
+          ]
+        }
+      ],
+      "ratings": {
+        "1324": {
+          "name": "Ivan Šunjić",
+          "rating": 6.5,
+          "minutes": 16,
+          "goals": null,
+          "assists": 0
+        },
+        "1442": {
+          "name": "Sead Kolašinac",
+          "rating": 7.9,
+          "minutes": 84,
+          "goals": null,
+          "assists": 1
+        },
+        "1741": {
+          "name": "Nikola Katić",
+          "rating": 8.2,
+          "minutes": 90,
+          "goals": null,
+          "assists": 0
+        },
+        "2001": {
+          "name": "Cyle Larin",
+          "rating": 7.7,
+          "minutes": 14,
+          "goals": 1,
+          "assists": 0
+        },
+        "7318": {
+          "name": "Amar Dedić",
+          "rating": 6.9,
+          "minutes": 90,
+          "goals": null,
+          "assists": 0
+        },
+        "8489": {
+          "name": "Jonathan David",
+          "rating": 6.2,
+          "minutes": 61,
+          "goals": null,
+          "assists": 0
+        },
+        "9026": {
+          "name": "Nikola Vasilj",
+          "rating": 6.2,
+          "minutes": 90,
+          "goals": null,
+          "assists": 0
+        },
+        "25129": {
+          "name": "Dženis Burnić",
+          "rating": 6.6,
+          "minutes": 13,
+          "goals": null,
+          "assists": 0
+        },
+        "35570": {
+          "name": "Stephen Eustaquio",
+          "rating": 7,
+          "minutes": 89,
+          "goals": null,
+          "assists": 0
+        },
+        "44798": {
+          "name": "Liam Millar",
+          "rating": 6.6,
+          "minutes": 61,
+          "goals": null,
+          "assists": 0
+        },
+        "46930": {
+          "name": "Ermedin Demirović",
+          "rating": 6.9,
+          "minutes": 90,
+          "goals": null,
+          "assists": 0
+        },
+        "50816": {
+          "name": "Richie Laryea",
+          "rating": 8.2,
+          "minutes": 90,
+          "goals": null,
+          "assists": 0
+        },
+        "50826": {
+          "name": "Jacob Shaffelburg",
+          "rating": 6.6,
+          "minutes": 29,
+          "goals": null,
+          "assists": 0
+        },
+        "51016": {
+          "name": "Tajon Buchanan",
+          "rating": 6.3,
+          "minutes": 61,
+          "goals": null,
+          "assists": 0
+        },
+        "51274": {
+          "name": "Maxime Crépeau",
+          "rating": 6.9,
+          "minutes": 90,
+          "goals": null,
+          "assists": 0
+        },
+        "51295": {
+          "name": "Derek Cornelius",
+          "rating": 6.7,
+          "minutes": 90,
+          "goals": null,
+          "assists": 0
+        },
+        "70514": {
+          "name": "Armin Gigović",
+          "rating": 6.9,
+          "minutes": 28,
+          "goals": null,
+          "assists": 0
+        },
+        "77037": {
+          "name": "Jovo Lukić",
+          "rating": 7.5,
+          "minutes": 62,
+          "goals": 1,
+          "assists": 0
+        },
+        "78547": {
+          "name": "Alistair Johnston",
+          "rating": 6.9,
+          "minutes": 90,
+          "goals": null,
+          "assists": 0
+        },
+        "162222": {
+          "name": "Ivan Bašić",
+          "rating": 7.5,
+          "minutes": 62,
+          "goals": null,
+          "assists": 0
+        },
+        "264094": {
+          "name": "Benjamin Tahirović",
+          "rating": 6.3,
+          "minutes": 90,
+          "goals": null,
+          "assists": 0
+        },
+        "271350": {
+          "name": "Tarik Muharemović",
+          "rating": 7.9,
+          "minutes": 90,
+          "goals": null,
+          "assists": 0
+        },
+        "313353": {
+          "name": "Promise David",
+          "rating": 6.3,
+          "minutes": 29,
+          "goals": null,
+          "assists": 1
+        },
+        "314377": {
+          "name": "Samed Baždar",
+          "rating": 6.3,
+          "minutes": 28,
+          "goals": null,
+          "assists": 0
+        },
+        "322101": {
+          "name": "Amar Memić",
+          "rating": 6.2,
+          "minutes": 74,
+          "goals": null,
+          "assists": 0
+        },
+        "327738": {
+          "name": "Luc De Fougerolles",
+          "rating": 6.6,
+          "minutes": 90,
+          "goals": null,
+          "assists": 0
+        },
+        "328046": {
+          "name": "Ismael Koné",
+          "rating": 6.3,
+          "minutes": 90,
+          "goals": null,
+          "assists": 0
+        },
+        "329409": {
+          "name": "Esmir Bajraktarević",
+          "rating": 6,
+          "minutes": 74,
+          "goals": null,
+          "assists": 0
+        },
+        "351587": {
+          "name": "Tani Oluwaseyi",
+          "rating": 6.3,
+          "minutes": 76,
+          "goals": null,
+          "assists": 0
+        },
+        "362145": {
+          "name": "Ali Ahmed",
+          "rating": 6.7,
+          "minutes": 29,
+          "goals": null,
+          "assists": 0
+        },
+        "395559": {
+          "name": "Kerim Alajbegović",
+          "rating": 6.3,
+          "minutes": 16,
+          "goals": null,
+          "assists": 0
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1489370,
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": null
+        },
+        "date": "2026-06-13T06:30:00+05:30"
+      },
+      "league": {
+        "id": 1,
+        "name": "FIFA World Cup",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "round": "Group Stage - 1"
+      },
+      "teams": {
+        "home": {
+          "id": 2384,
+          "name": "USA",
+          "logo": "https://media.api-sports.io/football/teams/2384.png"
+        },
+        "away": {
+          "id": 2380,
+          "name": "Paraguay",
+          "logo": "https://media.api-sports.io/football/teams/2380.png"
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 4,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": [
+        {
+          "type": "Goal",
+          "detail": "Own Goal",
+          "minute": 7,
+          "team_id": 2384,
+          "player": "D. Bobadilla",
+          "assist": null
+        },
+        {
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "minute": 31,
+          "team_id": 2384,
+          "player": "F. Balogun",
+          "assist": "C. Pulisic"
+        },
+        {
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "minute": 45,
+          "team_id": 2384,
+          "player": "F. Balogun",
+          "assist": "M. Tillman"
+        },
+        {
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "minute": 73,
+          "team_id": 2380,
+          "player": "Mauricio",
+          "assist": "J. Enciso"
+        },
+        {
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "minute": 90,
+          "team_id": 2384,
+          "player": "G. Reyna",
+          "assist": "A. Freeman"
+        }
+      ],
+      "stats": [
+        {
+          "team_id": 2384,
+          "possession": "65%",
+          "shots_on": 6,
+          "shots_total": 16,
+          "corners": 3,
+          "fouls": 13,
+          "yellow_cards": 1,
+          "saves": 1,
+          "passes_total": 596,
+          "passes_acc": 508,
+          "passes_pct": "85%",
+          "xg": null
+        },
+        {
+          "team_id": 2380,
+          "possession": "35%",
+          "shots_on": 1,
+          "shots_total": 9,
+          "corners": 1,
+          "fouls": 17,
+          "yellow_cards": 5,
+          "saves": 3,
+          "passes_total": 320,
+          "passes_acc": 230,
+          "passes_pct": "72%",
+          "xg": null
+        }
+      ],
+      "lineups": [
+        {
+          "team_id": 2384,
+          "formation": "4-2-3-1",
+          "startXI": [
+            {
+              "id": 50728,
+              "name": "M. Freese",
+              "number": 24,
+              "pos": "G"
+            },
+            {
+              "id": 355994,
+              "name": "A. Freeman",
+              "number": 16,
+              "pos": "D"
+            },
+            {
+              "id": 126949,
+              "name": "C. Richards",
+              "number": 3,
+              "pos": "D"
+            },
+            {
+              "id": 19023,
+              "name": "T. Ream",
+              "number": 13,
+              "pos": "D"
+            },
+            {
+              "id": 19549,
+              "name": "A. Robinson",
+              "number": 5,
+              "pos": "D"
+            },
+            {
+              "id": 1150,
+              "name": "T. Adams",
+              "number": 4,
+              "pos": "M"
+            },
+            {
+              "id": 162037,
+              "name": "M. Tillman",
+              "number": 17,
+              "pos": "M"
+            },
+            {
+              "id": 38735,
+              "name": "S. Dest",
+              "number": 2,
+              "pos": "M"
+            },
+            {
+              "id": 415,
+              "name": "W. McKennie",
+              "number": 8,
+              "pos": "M"
+            },
+            {
+              "id": 17,
+              "name": "C. Pulisic",
+              "number": 10,
+              "pos": "M"
+            },
+            {
+              "id": 138835,
+              "name": "F. Balogun",
+              "number": 20,
+              "pos": "F"
+            }
+          ],
+          "substitutes": [
+            {
+              "id": 266606,
+              "name": "C. Brady",
+              "number": 25,
+              "pos": "G"
+            },
+            {
+              "id": 50999,
+              "name": "M. Turner",
+              "number": 1,
+              "pos": "G"
+            },
+            {
+              "id": 50737,
+              "name": "A. Trusty",
+              "number": 6,
+              "pos": "D"
+            },
+            {
+              "id": 73868,
+              "name": "R. Pepi",
+              "number": 9,
+              "pos": "F"
+            },
+            {
+              "id": 161921,
+              "name": "G. Reyna",
+              "number": 7,
+              "pos": "M"
+            },
+            {
+              "id": 201713,
+              "name": "S. Berhalter",
+              "number": 14,
+              "pos": "M"
+            },
+            {
+              "id": 427,
+              "name": "H. Wright",
+              "number": 19,
+              "pos": "F"
+            },
+            {
+              "id": 51114,
+              "name": "C. Roldan",
+              "number": 15,
+              "pos": "M"
+            },
+            {
+              "id": 35885,
+              "name": "A. Zendejas",
+              "number": 26,
+              "pos": "F"
+            },
+            {
+              "id": 1138,
+              "name": "T. Weah",
+              "number": 21,
+              "pos": "F"
+            },
+            {
+              "id": 50879,
+              "name": "M. Robinson",
+              "number": 12,
+              "pos": "D"
+            },
+            {
+              "id": 50739,
+              "name": "B. Aaronson",
+              "number": 11,
+              "pos": "M"
+            },
+            {
+              "id": 50735,
+              "name": "M. McKenzie",
+              "number": 22,
+              "pos": "D"
+            },
+            {
+              "id": 50852,
+              "name": "J. Scally",
+              "number": 23,
+              "pos": "D"
+            },
+            {
+              "id": 362400,
+              "name": "M. Arfsten",
+              "number": 18,
+              "pos": "M"
+            }
+          ]
+        },
+        {
+          "team_id": 2380,
+          "formation": "4-4-2",
+          "startXI": [
+            {
+              "id": 70852,
+              "name": "O. Gill",
+              "number": 12,
+              "pos": "G"
+            },
+            {
+              "id": 195992,
+              "name": "J. Caceres",
+              "number": 4,
+              "pos": "D"
+            },
+            {
+              "id": 2502,
+              "name": "G. Gomez",
+              "number": 15,
+              "pos": "D"
+            },
+            {
+              "id": 6168,
+              "name": "O. Alderete",
+              "number": 3,
+              "pos": "D"
+            },
+            {
+              "id": 2499,
+              "name": "J. Alonso",
+              "number": 6,
+              "pos": "D"
+            },
+            {
+              "id": 278370,
+              "name": "D. Gomez",
+              "number": 8,
+              "pos": "M"
+            },
+            {
+              "id": 6236,
+              "name": "A. Cubas",
+              "number": 14,
+              "pos": "M"
+            },
+            {
+              "id": 195107,
+              "name": "D. Bobadilla",
+              "number": 16,
+              "pos": "M"
+            },
+            {
+              "id": 2507,
+              "name": "M. Almiron",
+              "number": 10,
+              "pos": "M"
+            },
+            {
+              "id": 2522,
+              "name": "A. Sanabria",
+              "number": 9,
+              "pos": "F"
+            },
+            {
+              "id": 70747,
+              "name": "J. Enciso",
+              "number": 19,
+              "pos": "F"
+            }
+          ],
+          "substitutes": [
+            {
+              "id": 535737,
+              "name": "R. Fernandez",
+              "number": 1,
+              "pos": null
+            },
+            {
+              "id": 51733,
+              "name": "G. Olveira",
+              "number": 22,
+              "pos": "G"
+            },
+            {
+              "id": 35808,
+              "name": "G. Velazquez",
+              "number": 2,
+              "pos": "D"
+            },
+            {
+              "id": 2500,
+              "name": "Fabian Balbuena",
+              "number": 5,
+              "pos": "D"
+            },
+            {
+              "id": 6483,
+              "name": "G. Avalos",
+              "number": 21,
+              "pos": "F"
+            },
+            {
+              "id": 119128,
+              "name": "G. Caballero",
+              "number": 24,
+              "pos": "F"
+            },
+            {
+              "id": 70732,
+              "name": "J. Canale",
+              "number": 13,
+              "pos": "D"
+            },
+            {
+              "id": 70670,
+              "name": "I. Pitta",
+              "number": 25,
+              "pos": "F"
+            },
+            {
+              "id": 305832,
+              "name": "M. Galarza",
+              "number": 23,
+              "pos": "M"
+            },
+            {
+              "id": 106485,
+              "name": "Mauricio",
+              "number": 11,
+              "pos": "M"
+            },
+            {
+              "id": 196298,
+              "name": "R. Sosa",
+              "number": 7,
+              "pos": "F"
+            },
+            {
+              "id": 2514,
+              "name": "Kaku",
+              "number": 17,
+              "pos": "M"
+            },
+            {
+              "id": 95460,
+              "name": "A. Arce",
+              "number": 18,
+              "pos": "F"
+            },
+            {
+              "id": 70767,
+              "name": "B. Ojeda",
+              "number": 20,
+              "pos": "M"
+            },
+            {
+              "id": 425020,
+              "name": "A. Maidana",
+              "number": 26,
+              "pos": "D"
+            }
+          ]
+        }
+      ],
+      "ratings": {
+        "17": {
+          "name": "Christian Pulišić",
+          "rating": 7.5,
+          "minutes": 45,
+          "goals": null,
+          "assists": 1
+        },
+        "415": {
+          "name": "Weston McKennie",
+          "rating": 7.2,
+          "minutes": 99,
+          "goals": null,
+          "assists": null
+        },
+        "1138": {
+          "name": "Tim Weah",
+          "rating": 6.3,
+          "minutes": 27,
+          "goals": null,
+          "assists": null
+        },
+        "1150": {
+          "name": "Tyler Adams",
+          "rating": 7,
+          "minutes": 99,
+          "goals": null,
+          "assists": null
+        },
+        "2499": {
+          "name": "Junior Alonso",
+          "rating": 5.2,
+          "minutes": 99,
+          "goals": null,
+          "assists": null
+        },
+        "2502": {
+          "name": "Gustavo Gómez",
+          "rating": 5.9,
+          "minutes": 99,
+          "goals": null,
+          "assists": null
+        },
+        "2507": {
+          "name": "Miguel Almirón",
+          "rating": 6.3,
+          "minutes": 79,
+          "goals": null,
+          "assists": null
+        },
+        "2514": {
+          "name": "Alejandro Romero",
+          "rating": 6.3,
+          "minutes": 19,
+          "goals": null,
+          "assists": null
+        },
+        "2522": {
+          "name": "Antonio Sanabria",
+          "rating": 6.5,
+          "minutes": 62,
+          "goals": null,
+          "assists": null
+        },
+        "6168": {
+          "name": "Omar Alderete",
+          "rating": 5.9,
+          "minutes": 99,
+          "goals": null,
+          "assists": null
+        },
+        "6236": {
+          "name": "Andrés Cubas",
+          "rating": 6.9,
+          "minutes": 99,
+          "goals": null,
+          "assists": null
+        },
+        "19023": {
+          "name": "Tim Ream",
+          "rating": 7.7,
+          "minutes": 99,
+          "goals": null,
+          "assists": null
+        },
+        "19549": {
+          "name": "Antonee Robinson",
+          "rating": 6.9,
+          "minutes": 99,
+          "goals": null,
+          "assists": null
+        },
+        "35808": {
+          "name": "Gustavo Velázquez",
+          "rating": 6.2,
+          "minutes": 20,
+          "goals": null,
+          "assists": null
+        },
+        "38735": {
+          "name": "Sergiño Dest",
+          "rating": 6.6,
+          "minutes": 72,
+          "goals": null,
+          "assists": null
+        },
+        "50728": {
+          "name": "Matthew Freese",
+          "rating": 6.3,
+          "minutes": 99,
+          "goals": null,
+          "assists": null
+        },
+        "70747": {
+          "name": "Julio Enciso",
+          "rating": 7.2,
+          "minutes": 99,
+          "goals": null,
+          "assists": 1
+        },
+        "70852": {
+          "name": "Orlando Gill",
+          "rating": 6.2,
+          "minutes": 99,
+          "goals": null,
+          "assists": null
+        },
+        "73868": {
+          "name": "Ricardo Pepi",
+          "rating": 6.3,
+          "minutes": 27,
+          "goals": null,
+          "assists": null
+        },
+        "95460": {
+          "name": "Alex Arce",
+          "rating": 6.2,
+          "minutes": 37,
+          "goals": null,
+          "assists": null
+        },
+        "106485": {
+          "name": "Mauricio",
+          "rating": 7.5,
+          "minutes": 54,
+          "goals": 1,
+          "assists": null
+        },
+        "126949": {
+          "name": "Chris Richards",
+          "rating": 6.9,
+          "minutes": 99,
+          "goals": null,
+          "assists": null
+        },
+        "138835": {
+          "name": "Folarin Balogun",
+          "rating": 9.2,
+          "minutes": 72,
+          "goals": 2,
+          "assists": null
+        },
+        "161921": {
+          "name": "Giovanni Reyna",
+          "rating": 7.9,
+          "minutes": 17,
+          "goals": 1,
+          "assists": null
+        },
+        "162037": {
+          "name": "Malik Tillman",
+          "rating": 7.5,
+          "minutes": 82,
+          "goals": null,
+          "assists": 1
+        },
+        "195107": {
+          "name": "Damián Bobadilla",
+          "rating": 5.5,
+          "minutes": 45,
+          "goals": null,
+          "assists": null
+        },
+        "195992": {
+          "name": "Juan Cáceres",
+          "rating": 6.2,
+          "minutes": 79,
+          "goals": null,
+          "assists": null
+        },
+        "196298": {
+          "name": "Ramón Sosa",
+          "rating": 6.7,
+          "minutes": 20,
+          "goals": null,
+          "assists": null
+        },
+        "201713": {
+          "name": "Sebastian Berhalter",
+          "rating": 6.9,
+          "minutes": 54,
+          "goals": null,
+          "assists": null
+        },
+        "278370": {
+          "name": "Diego Gómez",
+          "rating": 6.5,
+          "minutes": 80,
+          "goals": null,
+          "assists": null
+        },
+        "355994": {
+          "name": "Alexander Freeman",
+          "rating": 7.3,
+          "minutes": 99,
+          "goals": null,
+          "assists": 1
+        }
+      }
+    }
+  ]
+}
