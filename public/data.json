@@ -1,6 +1,1317 @@
 {
-  "generated_at": "2026-06-14T16:54:03.644Z",
+  "generated_at": "2026-06-14T17:47:05.193Z",
   "days": [
+    {
+      "date": "2026-06-14",
+      "fetched_at": "2026-06-14T17:47:05.185Z",
+      "match_count": 4,
+      "matches": [
+        {
+          "fixture": {
+            "id": 1489373,
+            "status": {
+              "long": "Match Finished",
+              "short": "FT",
+              "elapsed": 90,
+              "extra": 8
+            },
+            "date": "2026-06-14T00:30:00+05:30"
+          },
+          "league": {
+            "id": 1,
+            "name": "FIFA World Cup",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "round": "Group Stage - 1"
+          },
+          "teams": {
+            "home": {
+              "id": 1569,
+              "name": "Qatar",
+              "logo": "https://media.api-sports.io/football/teams/1569.png"
+            },
+            "away": {
+              "id": 15,
+              "name": "Switzerland",
+              "logo": "https://media.api-sports.io/football/teams/15.png"
+            }
+          },
+          "goals": {
+            "home": 1,
+            "away": 1
+          },
+          "score": {
+            "halftime": {
+              "home": 0,
+              "away": 1
+            },
+            "fulltime": {
+              "home": 1,
+              "away": 1
+            },
+            "extratime": {
+              "home": null,
+              "away": null
+            },
+            "penalty": {
+              "home": null,
+              "away": null
+            }
+          },
+          "events": [
+            {
+              "type": "Goal",
+              "detail": "Penalty",
+              "minute": 17,
+              "team_id": 15,
+              "player": "Breel Embolo"
+            },
+            {
+              "type": "Goal",
+              "detail": "Normal Goal",
+              "minute": 90,
+              "team_id": 1569,
+              "player": "Boualem Khoukhi"
+            }
+          ],
+          "stats": [
+            {
+              "team_id": 1569,
+              "possession": "32%",
+              "shots_on": 4,
+              "shots_total": 7,
+              "corners": 3,
+              "fouls": 12,
+              "yellow_cards": 2,
+              "saves": 5,
+              "passes_total": 275,
+              "passes_pct": "71%",
+              "xg": null
+            },
+            {
+              "team_id": 15,
+              "possession": "68%",
+              "shots_on": 7,
+              "shots_total": 26,
+              "corners": 10,
+              "fouls": 11,
+              "yellow_cards": 1,
+              "saves": 3,
+              "passes_total": 575,
+              "passes_pct": "91%",
+              "xg": null
+            }
+          ],
+          "lineups": [
+            {
+              "team_id": 1569,
+              "formation": "4-3-3",
+              "startXI": [
+                {
+                  "id": 42207,
+                  "name": "Mahmud Abunad",
+                  "number": 1,
+                  "pos": "G"
+                },
+                {
+                  "id": 377930,
+                  "name": "Ayoub Al Oui",
+                  "number": 13,
+                  "pos": "D"
+                },
+                {
+                  "id": 2530,
+                  "name": "Pedro Miguel",
+                  "number": 2,
+                  "pos": "D"
+                },
+                {
+                  "id": 2532,
+                  "name": "Boualem Khoukhi",
+                  "number": 16,
+                  "pos": "D"
+                },
+                {
+                  "id": 175439,
+                  "name": "Homam Al-Amin",
+                  "number": 14,
+                  "pos": "D"
+                },
+                {
+                  "id": 200981,
+                  "name": "Jassem Gaber Abdulsallam",
+                  "number": 5,
+                  "pos": "M"
+                },
+                {
+                  "id": 2535,
+                  "name": "Assim Madibo",
+                  "number": 23,
+                  "pos": "M"
+                },
+                {
+                  "id": 366516,
+                  "name": "Issa Laye",
+                  "number": 4,
+                  "pos": "M"
+                },
+                {
+                  "id": 42075,
+                  "name": "Edmilson Junior",
+                  "number": 8,
+                  "pos": "F"
+                },
+                {
+                  "id": 542541,
+                  "name": "Yusuf Abdurisag",
+                  "number": 15,
+                  "pos": "F"
+                },
+                {
+                  "id": 2544,
+                  "name": "Akram Afif",
+                  "number": 11,
+                  "pos": "F"
+                }
+              ],
+              "substitutes": [
+                {
+                  "id": 2539,
+                  "name": "Ahmed Fathi",
+                  "number": 20,
+                  "pos": "M"
+                },
+                {
+                  "id": 2537,
+                  "name": "Karim Boudiaf",
+                  "number": 12,
+                  "pos": "M"
+                },
+                {
+                  "id": 2542,
+                  "name": "Ahmed Alaaeldin",
+                  "number": 7,
+                  "pos": "F"
+                },
+                {
+                  "id": 283174,
+                  "name": "Mohamed Naceur Almanai",
+                  "number": 26,
+                  "pos": "M"
+                },
+                {
+                  "id": 2545,
+                  "name": "Hassan Al Haydos",
+                  "number": 10,
+                  "pos": "F"
+                },
+                {
+                  "id": 42021,
+                  "name": "Meshaal Barsham",
+                  "number": 22,
+                  "pos": "G"
+                },
+                {
+                  "id": 136503,
+                  "name": "Salah Zakaria",
+                  "number": 21,
+                  "pos": "G"
+                },
+                {
+                  "id": 42288,
+                  "name": "Lucas Mendes",
+                  "number": 3,
+                  "pos": "D"
+                },
+                {
+                  "id": 42060,
+                  "name": "Sultan Al-Brake",
+                  "number": 18,
+                  "pos": "D"
+                },
+                {
+                  "id": 339795,
+                  "name": "Al-Hashmi Al-Hussain",
+                  "number": 25,
+                  "pos": "D"
+                },
+                {
+                  "id": 2533,
+                  "name": "Abdelaziz Hatem",
+                  "number": 6,
+                  "pos": "M"
+                },
+                {
+                  "id": 42286,
+                  "name": "Ahmed Al-Ganehi",
+                  "number": 17,
+                  "pos": "F"
+                },
+                {
+                  "id": 2543,
+                  "name": "Almoez Ali",
+                  "number": 19,
+                  "pos": "F"
+                },
+                {
+                  "id": 42089,
+                  "name": "Mohammed Muntari",
+                  "number": 9,
+                  "pos": "F"
+                },
+                {
+                  "id": 423737,
+                  "name": "Tahsin Mohammed Jamshid",
+                  "number": 24,
+                  "pos": "F"
+                }
+              ]
+            },
+            {
+              "team_id": 15,
+              "formation": "4-3-3",
+              "startXI": [
+                {
+                  "id": 25282,
+                  "name": "Gregor Kobel",
+                  "number": 1,
+                  "pos": "G"
+                },
+                {
+                  "id": 2810,
+                  "name": "Denis Zakaria",
+                  "number": 6,
+                  "pos": "D"
+                },
+                {
+                  "id": 2803,
+                  "name": "Nico Elvedi",
+                  "number": 4,
+                  "pos": "D"
+                },
+                {
+                  "id": 5,
+                  "name": "Manuel Akanji",
+                  "number": 5,
+                  "pos": "D"
+                },
+                {
+                  "id": 1631,
+                  "name": "Ricardo Rodríguez",
+                  "number": 13,
+                  "pos": "D"
+                },
+                {
+                  "id": 951,
+                  "name": "Michel Aebischer",
+                  "number": 20,
+                  "pos": "M"
+                },
+                {
+                  "id": 1464,
+                  "name": "Granit Xhaka",
+                  "number": 10,
+                  "pos": "M"
+                },
+                {
+                  "id": 2807,
+                  "name": "Remo Freuler",
+                  "number": 8,
+                  "pos": "M"
+                },
+                {
+                  "id": 48648,
+                  "name": "Dan Ndoye",
+                  "number": 11,
+                  "pos": "F"
+                },
+                {
+                  "id": 421,
+                  "name": "Breel Embolo",
+                  "number": 7,
+                  "pos": "F"
+                },
+                {
+                  "id": 48471,
+                  "name": "Rubén Vargas",
+                  "number": 17,
+                  "pos": "F"
+                }
+              ],
+              "substitutes": [
+                {
+                  "id": 163032,
+                  "name": "Fabian Rieder",
+                  "number": 22,
+                  "pos": "M"
+                },
+                {
+                  "id": 406244,
+                  "name": "Johan Manzambi",
+                  "number": 9,
+                  "pos": "M"
+                },
+                {
+                  "id": 123469,
+                  "name": "Zeki Amdouni",
+                  "number": 23,
+                  "pos": "F"
+                },
+                {
+                  "id": 48489,
+                  "name": "Miro Muheim",
+                  "number": 2,
+                  "pos": "D"
+                },
+                {
+                  "id": 264705,
+                  "name": "Ardon Jashari",
+                  "number": 14,
+                  "pos": "M"
+                },
+                {
+                  "id": 1142,
+                  "name": "Yvon Mvogo",
+                  "number": 12,
+                  "pos": "G"
+                },
+                {
+                  "id": 123468,
+                  "name": "Marvin Keller",
+                  "number": 21,
+                  "pos": "G"
+                },
+                {
+                  "id": 349344,
+                  "name": "Luca Jaquez",
+                  "number": 25,
+                  "pos": "D"
+                },
+                {
+                  "id": 48372,
+                  "name": "Eray Cömert",
+                  "number": 18,
+                  "pos": "D"
+                },
+                {
+                  "id": 162414,
+                  "name": "Aurèle Amenda",
+                  "number": 24,
+                  "pos": "D"
+                },
+                {
+                  "id": 957,
+                  "name": "Djibril Sow",
+                  "number": 15,
+                  "pos": "M"
+                },
+                {
+                  "id": 48378,
+                  "name": "Silvan Widmer",
+                  "number": 3,
+                  "pos": "D"
+                },
+                {
+                  "id": 952,
+                  "name": "Christian Fassnacht",
+                  "number": 16,
+                  "pos": "M"
+                },
+                {
+                  "id": 48497,
+                  "name": "Cédric Itten",
+                  "number": 26,
+                  "pos": "F"
+                },
+                {
+                  "id": 48389,
+                  "name": "Noah Okafor",
+                  "number": 19,
+                  "pos": "F"
+                }
+              ]
+            }
+          ],
+          "ratings": {
+            "5": {
+              "name": "Manuel Akanji",
+              "rating": 7.2,
+              "minutes": 90
+            },
+            "421": {
+              "name": "Breel Embolo",
+              "rating": 7,
+              "minutes": 90
+            },
+            "951": {
+              "name": "Michel Aebischer",
+              "rating": 7.5,
+              "minutes": 65
+            },
+            "1464": {
+              "name": "Granit Xhaka",
+              "rating": 7.3,
+              "minutes": 90
+            },
+            "1631": {
+              "name": "Ricardo Rodríguez",
+              "rating": 7.7,
+              "minutes": 89
+            },
+            "2530": {
+              "name": "Pedro Miguel",
+              "rating": 7.2,
+              "minutes": 90
+            },
+            "2532": {
+              "name": "Boualem Khoukhi",
+              "rating": 7.2,
+              "minutes": 90
+            },
+            "2535": {
+              "name": "Assim Madibo",
+              "rating": 6.2,
+              "minutes": 79
+            },
+            "2537": {
+              "name": "Karim Boudiaf",
+              "rating": 7,
+              "minutes": 30
+            },
+            "2539": {
+              "name": "Ahmed Fathi",
+              "rating": 6.6,
+              "minutes": 30
+            },
+            "2542": {
+              "name": "Ahmed Alaaeldin",
+              "rating": 6.5,
+              "minutes": 30
+            },
+            "2544": {
+              "name": "Akram Afif",
+              "rating": 7.2,
+              "minutes": 90
+            },
+            "2545": {
+              "name": "Hassan Al Haydos",
+              "rating": 6.3,
+              "minutes": 10
+            },
+            "2803": {
+              "name": "Nico Elvedi",
+              "rating": 7.2,
+              "minutes": 90
+            },
+            "2807": {
+              "name": "Remo Freuler",
+              "rating": 6.9,
+              "minutes": 89
+            },
+            "2810": {
+              "name": "Denis Zakaria",
+              "rating": 6.5,
+              "minutes": 90
+            },
+            "25282": {
+              "name": "Gregor Kobel",
+              "rating": 7.3,
+              "minutes": 90
+            },
+            "42075": {
+              "name": "Edmilson Junior",
+              "rating": 6.3,
+              "minutes": 88
+            },
+            "42207": {
+              "name": "Mahmud Abunad",
+              "rating": 6.9,
+              "minutes": 90
+            },
+            "48471": {
+              "name": "Rubén Vargas",
+              "rating": 7.9,
+              "minutes": 79
+            },
+            "48489": {
+              "name": "Miro Muheim",
+              "rating": 6.2,
+              "minutes": 9
+            },
+            "48648": {
+              "name": "Dan Ndoye",
+              "rating": 6.2,
+              "minutes": 65
+            },
+            "123469": {
+              "name": "Zeki Amdouni",
+              "rating": 6.9,
+              "minutes": 11
+            },
+            "163032": {
+              "name": "Fabian Rieder",
+              "rating": 6.3,
+              "minutes": 25
+            },
+            "175439": {
+              "name": "Homam Al-Amin",
+              "rating": 7.6,
+              "minutes": 90
+            },
+            "200981": {
+              "name": "Jassem Gaber Abdulsallam",
+              "rating": 6.5,
+              "minutes": 60
+            },
+            "264705": {
+              "name": "Ardon Jashari",
+              "rating": 6.2,
+              "minutes": 9
+            },
+            "283174": {
+              "name": "Mohamed Naceur Almanai",
+              "rating": 6.3,
+              "minutes": 11
+            },
+            "366516": {
+              "name": "Issa Laye",
+              "rating": 7.2,
+              "minutes": 90
+            },
+            "377930": {
+              "name": "Ayoub Al Oui",
+              "rating": 6.2,
+              "minutes": 60
+            },
+            "406244": {
+              "name": "Johan Manzambi",
+              "rating": 6.2,
+              "minutes": 25
+            },
+            "542541": {
+              "name": "Yusuf Abdurisag",
+              "rating": 7,
+              "minutes": 60
+            }
+          }
+        },
+        {
+          "fixture": {
+            "id": 1489371,
+            "status": {
+              "long": "Match Finished",
+              "short": "FT",
+              "elapsed": 90,
+              "extra": null
+            },
+            "date": "2026-06-14T03:30:00+05:30"
+          },
+          "league": {
+            "id": 1,
+            "name": "FIFA World Cup",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "round": "Group Stage - 1"
+          },
+          "teams": {
+            "home": {
+              "id": 6,
+              "name": "Brazil",
+              "logo": "https://media.api-sports.io/football/teams/6.png"
+            },
+            "away": {
+              "id": 31,
+              "name": "Morocco",
+              "logo": "https://media.api-sports.io/football/teams/31.png"
+            }
+          },
+          "goals": {
+            "home": 1,
+            "away": 1
+          },
+          "score": {
+            "halftime": {
+              "home": 1,
+              "away": 1
+            },
+            "fulltime": {
+              "home": 1,
+              "away": 1
+            },
+            "extratime": {
+              "home": null,
+              "away": null
+            },
+            "penalty": {
+              "home": null,
+              "away": null
+            }
+          },
+          "events": [
+            {
+              "type": "Goal",
+              "detail": "Normal Goal",
+              "minute": 21,
+              "team_id": 31,
+              "player": "Ismael Saibari"
+            },
+            {
+              "type": "Goal",
+              "detail": "Normal Goal",
+              "minute": 32,
+              "team_id": 6,
+              "player": "Vinícius Júnior"
+            }
+          ],
+          "stats": [
+            {
+              "team_id": 6,
+              "possession": "54%",
+              "shots_on": 4,
+              "shots_total": 12,
+              "corners": 5,
+              "fouls": 15,
+              "yellow_cards": 2,
+              "saves": 1,
+              "passes_total": 501,
+              "passes_pct": "88%",
+              "xg": null
+            },
+            {
+              "team_id": 31,
+              "possession": "46%",
+              "shots_on": 2,
+              "shots_total": 12,
+              "corners": null,
+              "fouls": 14,
+              "yellow_cards": null,
+              "saves": 3,
+              "passes_total": 432,
+              "passes_pct": "87%",
+              "xg": null
+            }
+          ],
+          "lineups": [
+            {
+              "team_id": 6,
+              "formation": "4-2-3-1",
+              "startXI": [
+                {
+                  "id": 280,
+                  "name": "Alisson",
+                  "number": 1,
+                  "pos": "G"
+                },
+                {
+                  "id": 30424,
+                  "name": "Roger Ibañez",
+                  "number": 24,
+                  "pos": "D"
+                },
+                {
+                  "id": 257,
+                  "name": "Marquinhos",
+                  "number": 4,
+                  "pos": "D"
+                },
+                {
+                  "id": 22224,
+                  "name": "Gabriel Magalhães",
+                  "number": 3,
+                  "pos": "D"
+                },
+                {
+                  "id": 24866,
+                  "name": "Douglas Santos",
+                  "number": 16,
+                  "pos": "D"
+                },
+                {
+                  "id": 747,
+                  "name": "Casemiro",
+                  "number": 5,
+                  "pos": "M"
+                },
+                {
+                  "id": 10135,
+                  "name": "Bruno Guimarães",
+                  "number": 8,
+                  "pos": "M"
+                },
+                {
+                  "id": 1646,
+                  "name": "Lucas Paquetá",
+                  "number": 20,
+                  "pos": "M"
+                },
+                {
+                  "id": 1496,
+                  "name": "Raphinha",
+                  "number": 11,
+                  "pos": "M"
+                },
+                {
+                  "id": 762,
+                  "name": "Vinícius Júnior",
+                  "number": 7,
+                  "pos": "M"
+                },
+                {
+                  "id": 196156,
+                  "name": "Igor Thiago",
+                  "number": 25,
+                  "pos": "F"
+                }
+              ],
+              "substitutes": [
+                {
+                  "id": 618,
+                  "name": "Danilo",
+                  "number": 13,
+                  "pos": "D"
+                },
+                {
+                  "id": 299,
+                  "name": "Fabinho",
+                  "number": 17,
+                  "pos": "M"
+                },
+                {
+                  "id": 265785,
+                  "name": "Luiz Henrique",
+                  "number": 21,
+                  "pos": "F"
+                },
+                {
+                  "id": 1165,
+                  "name": "Matheus Cunha",
+                  "number": 9,
+                  "pos": "F"
+                },
+                {
+                  "id": 275170,
+                  "name": "Danilo Santos",
+                  "number": 18,
+                  "pos": "M"
+                },
+                {
+                  "id": 617,
+                  "name": "Ederson",
+                  "number": 23,
+                  "pos": "G"
+                },
+                {
+                  "id": 2410,
+                  "name": "Weverton",
+                  "number": 12,
+                  "pos": "G"
+                },
+                {
+                  "id": 860,
+                  "name": "Alex Sandro",
+                  "number": 6,
+                  "pos": "D"
+                },
+                {
+                  "id": 30497,
+                  "name": "Bremer",
+                  "number": 14,
+                  "pos": "D"
+                },
+                {
+                  "id": 10124,
+                  "name": "Léo Pereira",
+                  "number": 15,
+                  "pos": "D"
+                },
+                {
+                  "id": 407806,
+                  "name": "Rayan",
+                  "number": 26,
+                  "pos": "F"
+                },
+                {
+                  "id": 10097,
+                  "name": "Éderson",
+                  "number": 2,
+                  "pos": "M"
+                },
+                {
+                  "id": 377122,
+                  "name": "Endrick",
+                  "number": 19,
+                  "pos": "F"
+                },
+                {
+                  "id": 127769,
+                  "name": "Gabriel Martinelli",
+                  "number": 22,
+                  "pos": "F"
+                }
+              ]
+            },
+            {
+              "team_id": 31,
+              "formation": "4-2-3-1",
+              "startXI": [
+                {
+                  "id": 2701,
+                  "name": "Bono",
+                  "number": 1,
+                  "pos": "G"
+                },
+                {
+                  "id": 9,
+                  "name": "Achraf Hakimi",
+                  "number": 2,
+                  "pos": "D"
+                },
+                {
+                  "id": 18814,
+                  "name": "Issa Diop",
+                  "number": 14,
+                  "pos": "D"
+                },
+                {
+                  "id": 278898,
+                  "name": "Chadi Riad",
+                  "number": 18,
+                  "pos": "D"
+                },
+                {
+                  "id": 545,
+                  "name": "Noussair Mazraoui",
+                  "number": 3,
+                  "pos": "D"
+                },
+                {
+                  "id": 277003,
+                  "name": "Neil El Aynaoui",
+                  "number": 24,
+                  "pos": "M"
+                },
+                {
+                  "id": 438688,
+                  "name": "Ayyoub Bouaddi",
+                  "number": 6,
+                  "pos": "M"
+                },
+                {
+                  "id": 744,
+                  "name": "Brahim Díaz",
+                  "number": 10,
+                  "pos": "M"
+                },
+                {
+                  "id": 129678,
+                  "name": "Azzedine Ounahi",
+                  "number": 8,
+                  "pos": "M"
+                },
+                {
+                  "id": 340573,
+                  "name": "Bilal El Khannouss",
+                  "number": 23,
+                  "pos": "M"
+                },
+                {
+                  "id": 161897,
+                  "name": "Ismael Saibari",
+                  "number": 11,
+                  "pos": "F"
+                }
+              ],
+              "substitutes": [
+                {
+                  "id": 336659,
+                  "name": "Chemsdine Talbi",
+                  "number": 7,
+                  "pos": "F"
+                },
+                {
+                  "id": 415431,
+                  "name": "Samir El Mourabet",
+                  "number": 15,
+                  "pos": "M"
+                },
+                {
+                  "id": 162451,
+                  "name": "Anass Salah-Eddine",
+                  "number": 26,
+                  "pos": "D"
+                },
+                {
+                  "id": 535046,
+                  "name": "Ayoube Amaimouni Echghouyab",
+                  "number": 21,
+                  "pos": "F"
+                },
+                {
+                  "id": 36579,
+                  "name": "Soufiane Rahimi",
+                  "number": 9,
+                  "pos": "F"
+                },
+                {
+                  "id": 2702,
+                  "name": "Munir El Kajoui",
+                  "number": 12,
+                  "pos": "G"
+                },
+                {
+                  "id": 2703,
+                  "name": "Ahmed Reda Tagnaouti",
+                  "number": 22,
+                  "pos": "G"
+                },
+                {
+                  "id": 50042,
+                  "name": "Marwane Saadane",
+                  "number": 5,
+                  "pos": "D"
+                },
+                {
+                  "id": 326183,
+                  "name": "Redouane Halhal",
+                  "number": 25,
+                  "pos": "D"
+                },
+                {
+                  "id": 283252,
+                  "name": "Zakaria El Ouahdi",
+                  "number": 13,
+                  "pos": "D"
+                },
+                {
+                  "id": 146772,
+                  "name": "Youssef Belammari",
+                  "number": 19,
+                  "pos": "D"
+                },
+                {
+                  "id": 191289,
+                  "name": "Amine Sbai",
+                  "number": 17,
+                  "pos": "F"
+                },
+                {
+                  "id": 369544,
+                  "name": "Gessime Yassine",
+                  "number": 16,
+                  "pos": "F"
+                },
+                {
+                  "id": 74,
+                  "name": "Sofyan Amrabat",
+                  "number": 4,
+                  "pos": "M"
+                },
+                {
+                  "id": 2722,
+                  "name": "Ayoub El Kaabi",
+                  "number": 20,
+                  "pos": "F"
+                }
+              ]
+            }
+          ],
+          "ratings": {
+            "9": {
+              "name": "Achraf Hakimi",
+              "rating": 7,
+              "minutes": 93
+            },
+            "257": {
+              "name": "Marquinhos",
+              "rating": 7.3,
+              "minutes": 93
+            },
+            "280": {
+              "name": "Alisson",
+              "rating": 6.5,
+              "minutes": 93
+            },
+            "299": {
+              "name": "Fabinho",
+              "rating": 6.3,
+              "minutes": 48
+            },
+            "545": {
+              "name": "Noussair Mazraoui",
+              "rating": 6.9,
+              "minutes": 80
+            },
+            "618": {
+              "name": "Danilo",
+              "rating": 6.6,
+              "minutes": 48
+            },
+            "744": {
+              "name": "Brahim Díaz",
+              "rating": 6.9,
+              "minutes": 65
+            },
+            "747": {
+              "name": "Casemiro",
+              "rating": 6.6,
+              "minutes": 45
+            },
+            "762": {
+              "name": "Vinícius Júnior",
+              "rating": 8,
+              "minutes": 93
+            },
+            "1165": {
+              "name": "Matheus Cunha",
+              "rating": 6.9,
+              "minutes": 32
+            },
+            "1496": {
+              "name": "Raphinha",
+              "rating": 6.3,
+              "minutes": 93
+            },
+            "1646": {
+              "name": "Lucas Paquetá",
+              "rating": 6.9,
+              "minutes": 61
+            },
+            "2701": {
+              "name": "Bono",
+              "rating": 6.9,
+              "minutes": 93
+            },
+            "10135": {
+              "name": "Bruno Guimarães",
+              "rating": 6.9,
+              "minutes": 80
+            },
+            "18814": {
+              "name": "Issa Diop",
+              "rating": 6.3,
+              "minutes": 93
+            },
+            "22224": {
+              "name": "Gabriel Magalhães",
+              "rating": 7.2,
+              "minutes": 93
+            },
+            "24866": {
+              "name": "Douglas Santos",
+              "rating": 7.2,
+              "minutes": 93
+            },
+            "30424": {
+              "name": "Roger Ibañez",
+              "rating": 6.3,
+              "minutes": 45
+            },
+            "129678": {
+              "name": "Azzedine Ounahi",
+              "rating": 6.6,
+              "minutes": 65
+            },
+            "161897": {
+              "name": "Ismael Saibari",
+              "rating": 7.7,
+              "minutes": 89
+            },
+            "162451": {
+              "name": "Anass Salah-Eddine",
+              "rating": 6.3,
+              "minutes": 13
+            },
+            "196156": {
+              "name": "Igor Thiago",
+              "rating": 6.3,
+              "minutes": 62
+            },
+            "265785": {
+              "name": "Luiz Henrique",
+              "rating": 6.9,
+              "minutes": 31
+            },
+            "275170": {
+              "name": "Danilo Santos",
+              "rating": 6.3,
+              "minutes": 13
+            },
+            "277003": {
+              "name": "Neil El Aynaoui",
+              "rating": 7,
+              "minutes": 93
+            },
+            "278898": {
+              "name": "Chadi Riad",
+              "rating": 6.3,
+              "minutes": 93
+            },
+            "336659": {
+              "name": "Chemsdine Talbi",
+              "rating": 6.3,
+              "minutes": 28
+            },
+            "340573": {
+              "name": "Bilal El Khannouss",
+              "rating": 7,
+              "minutes": 80
+            },
+            "415431": {
+              "name": "Samir El Mourabet",
+              "rating": 6.3,
+              "minutes": 28
+            },
+            "438688": {
+              "name": "Ayyoub Bouaddi",
+              "rating": 7,
+              "minutes": 93
+            },
+            "535046": {
+              "name": "Ayoube Amaimouni Echghouyab",
+              "rating": 6.7,
+              "minutes": 13
+            }
+          }
+        },
+        {
+          "fixture": {
+            "id": 1489372,
+            "status": {
+              "long": "Match Finished",
+              "short": "FT",
+              "elapsed": 90,
+              "extra": 8
+            },
+            "date": "2026-06-14T06:30:00+05:30"
+          },
+          "league": {
+            "id": 1,
+            "name": "FIFA World Cup",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "round": "Group Stage - 1"
+          },
+          "teams": {
+            "home": {
+              "id": 2386,
+              "name": "Haiti",
+              "logo": "https://media.api-sports.io/football/teams/2386.png"
+            },
+            "away": {
+              "id": 1108,
+              "name": "Scotland",
+              "logo": "https://media.api-sports.io/football/teams/1108.png"
+            }
+          },
+          "goals": {
+            "home": 0,
+            "away": 1
+          },
+          "score": {
+            "halftime": {
+              "home": 0,
+              "away": 1
+            },
+            "fulltime": {
+              "home": 0,
+              "away": 1
+            },
+            "extratime": {
+              "home": null,
+              "away": null
+            },
+            "penalty": {
+              "home": null,
+              "away": null
+            }
+          },
+          "events": [],
+          "stats": [
+            {
+              "team_id": 2386,
+              "possession": "54%",
+              "shots_on": 2,
+              "shots_total": 15,
+              "corners": 4,
+              "fouls": 23,
+              "yellow_cards": 1,
+              "saves": 1,
+              "passes_total": 431,
+              "passes_pct": "85%",
+              "xg": null
+            },
+            {
+              "team_id": 1108,
+              "possession": "46%",
+              "shots_on": 2,
+              "shots_total": 9,
+              "corners": 3,
+              "fouls": 21,
+              "yellow_cards": 3,
+              "saves": 2,
+              "passes_total": 373,
+              "passes_pct": "82%",
+              "xg": null
+            }
+          ],
+          "lineups": [],
+          "ratings": {}
+        },
+        {
+          "fixture": {
+            "id": 1539001,
+            "status": {
+              "long": "Match Finished",
+              "short": "FT",
+              "elapsed": 90,
+              "extra": 6
+            },
+            "date": "2026-06-14T09:30:00+05:30"
+          },
+          "league": {
+            "id": 1,
+            "name": "FIFA World Cup",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "round": "Group Stage - 1"
+          },
+          "teams": {
+            "home": {
+              "id": 20,
+              "name": "Australia",
+              "logo": "https://media.api-sports.io/football/teams/20.png"
+            },
+            "away": {
+              "id": 777,
+              "name": "Türkiye",
+              "logo": "https://media.api-sports.io/football/teams/777.png"
+            }
+          },
+          "goals": {
+            "home": 2,
+            "away": 0
+          },
+          "score": {
+            "halftime": {
+              "home": 1,
+              "away": 0
+            },
+            "fulltime": {
+              "home": 2,
+              "away": 0
+            },
+            "extratime": {
+              "home": null,
+              "away": null
+            },
+            "penalty": {
+              "home": null,
+              "away": null
+            }
+          },
+          "events": [],
+          "stats": [],
+          "lineups": [],
+          "ratings": {}
+        }
+      ]
+    },
     {
       "date": "2026-06-13",
       "fetched_at": "2026-06-14T12:25:37.384Z",
