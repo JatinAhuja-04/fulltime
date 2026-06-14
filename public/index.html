@@ -97,7 +97,7 @@ body{font-family:'Inter',system-ui,sans-serif;background:#F7F8FA;color:#111827;-
   <div class="date-tabs" id="date-tabs"></div>
   <div class="wrap">
     <main id="main"></main>
-    <footer class="site-footer">Fulltime. &nbsp;·&nbsp; Data via API-Football &nbsp;·&nbsp; <span style="cursor:pointer;text-decoration:underline" onclick="document.getElementById('file-input').click()">Upload new data</span></footer>
+    <footer class="site-footer">Fulltime. &nbsp;·&nbsp; Data via API-Football</footer>
   </div>
 </div>
 
@@ -270,7 +270,7 @@ function buildTabs(){
   if(DATA.generated_at){
     const info=document.createElement('div');
     info.style.cssText='margin-left:auto;display:flex;align-items:center';
-    info.innerHTML=`<button class="refresh-btn" onclick="document.getElementById('file-input').click()">↑ Update data</button>`;
+    info.innerHTML=``;
     tabs.appendChild(info);
   }
 }
