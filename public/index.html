@@ -298,14 +298,19 @@ function handleFile(input){
   reader.readAsText(file);
 }
 
-// Init
-const stored=localStorage.getItem(STORE_KEY);
-if(stored){
-  try{loadData(JSON.parse(stored));}catch{localStorage.removeItem(STORE_KEY);}
-} else {
-  document.getElementById('upload-screen').style.display='flex';
-  document.getElementById('site-content').style.display='none';
+// Init — fetch data.json from same server
+async function init(){
+  try{
+    const r=await fetch('./data.json');
+    if(!r.ok) throw new Error();
+    const d=await r.json();
+    loadData(d);
+  }catch{
+    document.getElementById('upload-screen').style.display='flex';
+    document.getElementById('site-content').style.display='none';
+  }
 }
+init();
 
 </script>
 </body>
