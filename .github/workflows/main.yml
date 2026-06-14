@@ -15,8 +15,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch yesterday's matches
-        run: node fetch.js
+      - name: Fetch today's matches
+        run: node fetch.js $(TZ='Asia/Kolkata' date +%Y-%m-%d)
         env:
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
 
