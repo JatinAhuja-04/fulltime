@@ -1,11 +1,13 @@
 // fetch.js — runs every night via cron at midnight IST
 // Fetches yesterday's matches and appends to public/data.json
+// Usage: node fetch.js           → fetches yesterday
+//        node fetch.js 2026-06-14 → fetches specific date
 
 const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const API_KEY = '06674a197d7ee04550b0f2dae4c64205';
+const API_KEY = process.env.FOOTBALL_API_KEY || '06674a197d7ee04550b0f2dae4c64205';
 
 const LEAGUES = {
   1:'FIFA World Cup',2:'Champions League',3:'Europa League',
@@ -22,11 +24,14 @@ function getYesterdayIST() {
   return ist.toISOString().split('T')[0];
 }
 
-function apiFetch(path) {
+// Accept date argument or default to yesterday
+const date = process.argv[2] || getYesterdayIST();
+
+function apiFetch(p) {
   return new Promise((resolve, reject) => {
     https.get({
       hostname: 'v3.football.api-sports.io',
-      path,
+      path: p,
       headers: { 'x-apisports-key': API_KEY }
     }, res => {
       let data = '';
@@ -39,7 +44,6 @@ function apiFetch(path) {
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function run() {
-  const date = getYesterdayIST();
   const dataFile = path.join(__dirname, 'public', 'data.json');
 
   // Load existing data
@@ -47,10 +51,9 @@ async function run() {
   if (fs.existsSync(dataFile)) {
     try {
       const raw = JSON.parse(fs.readFileSync(dataFile, 'utf8'));
-      // Handle both old single-date and new multi-date format
       if (raw.days) existing = raw;
       else if (raw.date) existing.days = [{ date: raw.date, fetched_at: raw.fetched_at, match_count: raw.match_count, matches: raw.matches }];
-    } catch(e) { console.log('Could not read existing data, starting fresh'); }
+    } catch(e) { console.log('Starting fresh'); }
   }
 
   // Skip if already fetched
@@ -101,13 +104,12 @@ async function run() {
     await sleep(300);
   }
 
-  // Append new day and sort newest first
   existing.days.push({ date, fetched_at: new Date().toISOString(), match_count: matches.length, matches });
   existing.days.sort((a, b) => b.date.localeCompare(a.date));
   existing.generated_at = new Date().toISOString();
 
   fs.writeFileSync(dataFile, JSON.stringify(existing, null, 2));
-  console.log(`Done — ${matches.length} matches appended. Total days: ${existing.days.length}`);
+  console.log(`Done — ${matches.length} matches added. Total days: ${existing.days.length}`);
 }
 
 run().catch(err => { console.error('Fatal:', err.message); process.exit(1); });
