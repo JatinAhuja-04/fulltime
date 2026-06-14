@@ -1,0 +1,29 @@
+name: Daily fetch
+
+on:
+  schedule:
+    - cron: '30 19 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch yesterday's matches
+        run: node fetch.js
+        env:
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+
+      - name: Push updated data.json
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add public/data.json
+          git diff --staged --quiet || git commit -m "Daily update $(date +%Y-%m-%d)"
+          git push
