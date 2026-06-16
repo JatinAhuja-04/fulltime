@@ -1,6 +1,600 @@
 {
-  "generated_at": "2026-06-15T21:35:13.944Z",
+  "generated_at": "2026-06-16T21:26:32.625Z",
   "days": [
+    {
+      "date": "2026-06-17",
+      "fetched_at": "2026-06-16T21:26:32.617Z",
+      "match_count": 1,
+      "matches": [
+        {
+          "fixture": {
+            "id": 1489383,
+            "status": {
+              "long": "Match Finished",
+              "short": "FT",
+              "elapsed": 90,
+              "extra": 10
+            },
+            "date": "2026-06-17T00:30:00+05:30"
+          },
+          "league": {
+            "id": 1,
+            "name": "FIFA World Cup",
+            "logo": "https://media.api-sports.io/football/leagues/1.png",
+            "round": "Group Stage - 1"
+          },
+          "teams": {
+            "home": {
+              "id": 2,
+              "name": "France",
+              "logo": "https://media.api-sports.io/football/teams/2.png"
+            },
+            "away": {
+              "id": 13,
+              "name": "Senegal",
+              "logo": "https://media.api-sports.io/football/teams/13.png"
+            }
+          },
+          "goals": {
+            "home": 3,
+            "away": 1
+          },
+          "score": {
+            "halftime": {
+              "home": 0,
+              "away": 0
+            },
+            "fulltime": {
+              "home": 3,
+              "away": 1
+            },
+            "extratime": {
+              "home": null,
+              "away": null
+            },
+            "penalty": {
+              "home": null,
+              "away": null
+            }
+          },
+          "events": [
+            {
+              "type": "Goal",
+              "detail": "Normal Goal",
+              "minute": 66,
+              "team_id": 2,
+              "player": "K. Mbappe"
+            },
+            {
+              "type": "Goal",
+              "detail": "Normal Goal",
+              "minute": 82,
+              "team_id": 2,
+              "player": "B. Barcola"
+            },
+            {
+              "type": "Goal",
+              "detail": "Normal Goal",
+              "minute": 90,
+              "team_id": 13,
+              "player": "I. Mbaye"
+            },
+            {
+              "type": "Goal",
+              "detail": "Normal Goal",
+              "minute": 90,
+              "team_id": 2,
+              "player": "K. Mbappe"
+            }
+          ],
+          "stats": [
+            {
+              "team_id": 2,
+              "possession": "54%",
+              "shots_on": 8,
+              "shots_total": 11,
+              "corners": 6,
+              "fouls": 5,
+              "yellow_cards": null,
+              "saves": 1,
+              "passes_total": 569,
+              "passes_pct": "88%",
+              "xg": null
+            },
+            {
+              "team_id": 13,
+              "possession": "46%",
+              "shots_on": 2,
+              "shots_total": 6,
+              "corners": 4,
+              "fouls": 9,
+              "yellow_cards": null,
+              "saves": 5,
+              "passes_total": 496,
+              "passes_pct": "86%",
+              "xg": null
+            }
+          ],
+          "lineups": [
+            {
+              "team_id": 2,
+              "formation": "4-2-3-1",
+              "startXI": [
+                {
+                  "id": 22221,
+                  "name": "Mike Maignan",
+                  "number": 16,
+                  "pos": "G"
+                },
+                {
+                  "id": 1257,
+                  "name": "Jules Koundé",
+                  "number": 5,
+                  "pos": "D"
+                },
+                {
+                  "id": 1149,
+                  "name": "Dayot Upamecano",
+                  "number": 4,
+                  "pos": "D"
+                },
+                {
+                  "id": 22090,
+                  "name": "William Saliba",
+                  "number": 17,
+                  "pos": "D"
+                },
+                {
+                  "id": 47300,
+                  "name": "Theo Hernández",
+                  "number": 19,
+                  "pos": "D"
+                },
+                {
+                  "id": 1271,
+                  "name": "Aurélien Tchouaméni",
+                  "number": 8,
+                  "pos": "M"
+                },
+                {
+                  "id": 272,
+                  "name": "Adrien Rabiot",
+                  "number": 14,
+                  "pos": "M"
+                },
+                {
+                  "id": 19617,
+                  "name": "Michael Olise",
+                  "number": 11,
+                  "pos": "M"
+                },
+                {
+                  "id": 153,
+                  "name": "Ousmane Dembélé",
+                  "number": 7,
+                  "pos": "M"
+                },
+                {
+                  "id": 343027,
+                  "name": "Désiré Doué",
+                  "number": 20,
+                  "pos": "M"
+                },
+                {
+                  "id": 278,
+                  "name": "Kylian Mbappé",
+                  "number": 10,
+                  "pos": "F"
+                }
+              ],
+              "substitutes": [
+                {
+                  "id": 21628,
+                  "name": "Brice Samba",
+                  "number": 1,
+                  "pos": "G"
+                },
+                {
+                  "id": 347211,
+                  "name": "Robin Risser",
+                  "number": 23,
+                  "pos": "G"
+                },
+                {
+                  "id": 20995,
+                  "name": "Maxence Lacroix",
+                  "number": 26,
+                  "pos": "D"
+                },
+                {
+                  "id": 33,
+                  "name": "Lucas Hernández",
+                  "number": 21,
+                  "pos": "D"
+                },
+                {
+                  "id": 2724,
+                  "name": "Lucas Digne",
+                  "number": 3,
+                  "pos": "D"
+                },
+                {
+                  "id": 1145,
+                  "name": "Ibrahima Konaté",
+                  "number": 15,
+                  "pos": "D"
+                },
+                {
+                  "id": 161907,
+                  "name": "Malo Gusto",
+                  "number": 2,
+                  "pos": "D"
+                },
+                {
+                  "id": 22147,
+                  "name": "Manu Koné",
+                  "number": 6,
+                  "pos": "M"
+                },
+                {
+                  "id": 2290,
+                  "name": "N'Golo Kanté",
+                  "number": 13,
+                  "pos": "M"
+                },
+                {
+                  "id": 156477,
+                  "name": "Rayan Cherki",
+                  "number": 24,
+                  "pos": "M"
+                },
+                {
+                  "id": 336657,
+                  "name": "Warren Zaïre-Emery",
+                  "number": 18,
+                  "pos": "M"
+                },
+                {
+                  "id": 274300,
+                  "name": "Maghnes Akliouche",
+                  "number": 25,
+                  "pos": "M"
+                },
+                {
+                  "id": 21509,
+                  "name": "Marcus Thuram",
+                  "number": 9,
+                  "pos": "F"
+                },
+                {
+                  "id": 25927,
+                  "name": "Jean-Philippe Mateta",
+                  "number": 22,
+                  "pos": "F"
+                },
+                {
+                  "id": 161904,
+                  "name": "Bradley Barcola",
+                  "number": 12,
+                  "pos": "F"
+                }
+              ]
+            },
+            {
+              "team_id": 13,
+              "formation": "4-2-3-1",
+              "startXI": [
+                {
+                  "id": 2986,
+                  "name": "Edouard Mendy",
+                  "number": 16,
+                  "pos": "G"
+                },
+                {
+                  "id": 81,
+                  "name": "Krépin Diatta",
+                  "number": 15,
+                  "pos": "D"
+                },
+                {
+                  "id": 318,
+                  "name": "Kalidou Koulibaly",
+                  "number": 3,
+                  "pos": "D"
+                },
+                {
+                  "id": 25916,
+                  "name": "Moussa Niakhaté",
+                  "number": 19,
+                  "pos": "D"
+                },
+                {
+                  "id": 409303,
+                  "name": "El Hadji Malick Diouf",
+                  "number": 25,
+                  "pos": "D"
+                },
+                {
+                  "id": 2990,
+                  "name": "Idrissa Gana Gueye",
+                  "number": 5,
+                  "pos": "M"
+                },
+                {
+                  "id": 20696,
+                  "name": "Pape Gueye",
+                  "number": 26,
+                  "pos": "M"
+                },
+                {
+                  "id": 2218,
+                  "name": "Ismaïla Sarr",
+                  "number": 18,
+                  "pos": "M"
+                },
+                {
+                  "id": 374058,
+                  "name": "Lamine Camara",
+                  "number": 8,
+                  "pos": "M"
+                },
+                {
+                  "id": 304,
+                  "name": "Sadio Mané",
+                  "number": 10,
+                  "pos": "M"
+                },
+                {
+                  "id": 283058,
+                  "name": "Nicolas Jackson",
+                  "number": 11,
+                  "pos": "F"
+                }
+              ],
+              "substitutes": [
+                {
+                  "id": 20566,
+                  "name": "Yehvann Diouf",
+                  "number": 1,
+                  "pos": "G"
+                },
+                {
+                  "id": 119853,
+                  "name": "Mory Diaw",
+                  "number": 23,
+                  "pos": "G"
+                },
+                {
+                  "id": 158121,
+                  "name": "Ismail Jakobs",
+                  "number": 14,
+                  "pos": "D"
+                },
+                {
+                  "id": 313937,
+                  "name": "Antoine Mendy",
+                  "number": 24,
+                  "pos": "D"
+                },
+                {
+                  "id": 276184,
+                  "name": "Mamadou Sarr",
+                  "number": 2,
+                  "pos": "D"
+                },
+                {
+                  "id": 8450,
+                  "name": "Abdoulaye Seck",
+                  "number": 4,
+                  "pos": "D"
+                },
+                {
+                  "id": 237129,
+                  "name": "Pape Matar Sarr",
+                  "number": 17,
+                  "pos": "M"
+                },
+                {
+                  "id": 41552,
+                  "name": "Pathé Ismaël Ciss",
+                  "number": 6,
+                  "pos": "M"
+                },
+                {
+                  "id": 18592,
+                  "name": "Iliman Ndiaye",
+                  "number": 13,
+                  "pos": "F"
+                },
+                {
+                  "id": 327631,
+                  "name": "Habib Diarra",
+                  "number": 21,
+                  "pos": "M"
+                },
+                {
+                  "id": 630895,
+                  "name": "Bara Sapoko Ndiaye",
+                  "number": 22,
+                  "pos": "M"
+                },
+                {
+                  "id": 14379,
+                  "name": "Cherif Ndiaye",
+                  "number": 12,
+                  "pos": "F"
+                },
+                {
+                  "id": 400948,
+                  "name": "Assane Diao",
+                  "number": 7,
+                  "pos": "F"
+                },
+                {
+                  "id": 446249,
+                  "name": "Ibrahim Mbaye",
+                  "number": 20,
+                  "pos": "F"
+                },
+                {
+                  "id": 284072,
+                  "name": "Ahmadou Bamba Dieng",
+                  "number": 9,
+                  "pos": "F"
+                }
+              ]
+            }
+          ],
+          "ratings": {
+            "81": {
+              "name": "Krépin Diatta",
+              "rating": 6.9,
+              "minutes": 99
+            },
+            "153": {
+              "name": "Ousmane Dembélé",
+              "rating": 7,
+              "minutes": 80
+            },
+            "272": {
+              "name": "Adrien Rabiot",
+              "rating": 7.5,
+              "minutes": 99
+            },
+            "278": {
+              "name": "Kylian Mbappé",
+              "rating": 8.2,
+              "minutes": 99
+            },
+            "304": {
+              "name": "Sadio Mané",
+              "rating": 6.3,
+              "minutes": 99
+            },
+            "318": {
+              "name": "Kalidou Koulibaly",
+              "rating": 6.2,
+              "minutes": 99
+            },
+            "1149": {
+              "name": "Dayot Upamecano",
+              "rating": 7.9,
+              "minutes": 99
+            },
+            "1257": {
+              "name": "Jules Koundé",
+              "rating": 6.3,
+              "minutes": 99
+            },
+            "1271": {
+              "name": "Aurélien Tchouaméni",
+              "rating": 7.3,
+              "minutes": 99
+            },
+            "2218": {
+              "name": "Ismaïla Sarr",
+              "rating": 6.3,
+              "minutes": 75
+            },
+            "2986": {
+              "name": "Edouard Mendy",
+              "rating": 6.7,
+              "minutes": 99
+            },
+            "2990": {
+              "name": "Idrissa Gana Gueye",
+              "rating": 6.6,
+              "minutes": 88
+            },
+            "18592": {
+              "name": "Iliman Ndiaye",
+              "rating": 6.7,
+              "minutes": 16
+            },
+            "19617": {
+              "name": "Michael Olise",
+              "rating": 7.9,
+              "minutes": 99
+            },
+            "20696": {
+              "name": "Pape Gueye",
+              "rating": 6.9,
+              "minutes": 83
+            },
+            "22090": {
+              "name": "William Saliba",
+              "rating": 6.7,
+              "minutes": 99
+            },
+            "22221": {
+              "name": "Mike Maignan",
+              "rating": 6.3,
+              "minutes": 99
+            },
+            "25916": {
+              "name": "Moussa Niakhaté",
+              "rating": 6.5,
+              "minutes": 99
+            },
+            "41552": {
+              "name": "Pathé Ismaël Ciss",
+              "rating": 6.7,
+              "minutes": 11
+            },
+            "47300": {
+              "name": "Theo Hernández",
+              "rating": 6.5,
+              "minutes": 99
+            },
+            "156477": {
+              "name": "Rayan Cherki",
+              "rating": 6.7,
+              "minutes": 12
+            },
+            "161904": {
+              "name": "Bradley Barcola",
+              "rating": 7.9,
+              "minutes": 19
+            },
+            "283058": {
+              "name": "Nicolas Jackson",
+              "rating": 5.9,
+              "minutes": 83
+            },
+            "284072": {
+              "name": "Ahmadou Bamba Dieng",
+              "rating": 6.5,
+              "minutes": 16
+            },
+            "327631": {
+              "name": "Habib Diarra",
+              "rating": 6.3,
+              "minutes": 23
+            },
+            "343027": {
+              "name": "Désiré Doué",
+              "rating": 6.7,
+              "minutes": 87
+            },
+            "374058": {
+              "name": "Lamine Camara",
+              "rating": 6.2,
+              "minutes": 76
+            },
+            "409303": {
+              "name": "El Hadji Malick Diouf",
+              "rating": 6.2,
+              "minutes": 99
+            },
+            "446249": {
+              "name": "Ibrahim Mbaye",
+              "rating": 7.3,
+              "minutes": 24
+            }
+          }
+        }
+      ]
+    },
     {
       "date": "2026-06-16",
       "fetched_at": "2026-06-15T21:35:13.936Z",
